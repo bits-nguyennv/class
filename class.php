@@ -1,20 +1,20 @@
 <?php
-class calculation {
+    class calculation {
         public $a,$b;
-        function  __construct ($a,$b){
+        function  __construct ($a,$b) {
          $this->a = $a;
          $this->b = $b;
         }
-        function  subtract (){
+        function  subtract () {
             return $this->a - $this->b;
         }
-        function  add (){
+        function  add () {
             return $this->a + $this->b;
         }
-        function divide (){
+        function divide () {
             return $this->a / $this->b;
         }
-        function multiply (){
+        function multiply () {
             return $this->a * $this->b;
         }
         }
@@ -30,15 +30,15 @@ class calculation {
 
 
 
-class Figure {
+    class Figure {
         public $a;
-        function  __construct ($a){
+        function  __construct ($a) {
             $this->a = $a;
         }  
-        function P (){
+        function P () {
             return $this->a* 4;
         }
-        function S (){
+        function S () {
             return $this->a * $this->a;
         }
         }
@@ -49,15 +49,15 @@ class Figure {
         echo "<br>";
 
 
-class threeedges {
+    class threeedges {
         public $a,$b,$c,$h;
-        function __construct ($a,$b,$c,$h){
+        function __construct ($a,$b,$c,$h) {
          $this->a = $a;
          $this->b = $b;
          $this->c = $c;
          $this->h = $h; 
         }
-        function p (){
+        function p () {
             return $this->a + $this->b + $this->c;
         }
         function s (){
@@ -69,5 +69,4 @@ class threeedges {
         echo "<br>";
         echo $triangle ->s ();
         echo "<br>";
-
 ?>
